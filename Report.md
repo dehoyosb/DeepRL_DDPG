@@ -37,8 +37,8 @@ Max number of Steps per Episode = 1000
 Also the Ornstein-Uhlenbeck process which adds noise to the actions selected by the Actor Nework, a normal distributions was used instead of a uniform distribution.
 
 ### Plot of Rewards per Episode
-![Image of Reward PLot](/training_results/reward_plot.png)
-![Image of Training Process](/training_results/training_process.png)
+![Image of Reward PLot](/training_results/reward_plot_ddpg.png)
+![Image of Training Process](/training_results/training_process_ddpg.png)
 
 The Enviroment was solved around episode 500
 
