@@ -33,7 +33,8 @@ Then, place the file in the ```p2_continuous-control/``` folder in the DRLND Git
 (For Windows users) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
 ## Running the Agent
-
+Once you have set up the enviroment, go to **5. Testing Agent After Learning** in Continuous_Control.ipynb, and run all the cells except the last one which closes the enviroment. If the path to your enviroment is different, just change it in the cell below **Loading Enviroment**. You will be able to see in the unity window how the agent is sticking to its target position, which is moving in a continuos manner, as the agent's own joints. If you want to see various episode runs, just rerun the times you want the cell below **Running Episode**
+In the Case you want to train the agent from scratch, run all the cells from **4. It's Your Turn** section, and you'll be able to see the training process and the reward plot per 100 episodes. There you will save the weights learned, and the files can be used to test the agent thereafter.
 
 
 
