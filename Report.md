@@ -2,7 +2,7 @@
 
 ### The Enviroment
 In this implementation i used a DDPG (Deep Deterministic Policy Gradient) method to solve the Continuos Control enviroment. 
-The objective of the enviroment is to be used as a playground to train a single agent that is capable of following some continuously changing positions in space which are is target locations. The agent is a double-jointed arm that recieves a reward of +0.1 for each step that it's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
+The objective of the enviroment is to be used as a playground to train a **Single Agent (Version 1)** that is capable of following some continuously changing positions in space which are is target locations. The agent is a double-jointed arm that recieves a reward of +0.1 for each step that it's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
